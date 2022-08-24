@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/user/txl2.0'
+gcc main.c -c -o main.o
+gcc func.c -c -o func.o
+gcc extra.c -c -o extra.o
+gcc linklist.c -c -o linklist.o
+gcc main.o func.o extra.o linklist.o -o run
+make: Leaving directory '/home/user/txl2.0'
+ 
